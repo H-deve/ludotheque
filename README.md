@@ -1,17 +1,25 @@
-gestion de ludothèque permettant de gérer un stock de jeux et des adhérents.
+Description du Projet : Système de Gestion de Ludothèque pour Betton Ludique
 
-L'association Betton Ludique souhaite mettre en place un outil de gestion de ludothèque permettant de gérer un stock de jeux et des adhérents.
+L'association Betton Ludique souhaite mettre en place un système de gestion de ludothèque complet pour gérer efficacement son stock de jeux et les abonnements des membres. Le projet développé  en utilisant Java, SQL Express, Eclipse et GitHub.
+Objectifs :
 
-Au sein d'un groupe de 3 ou 4 personnes, vous devez implémenter une solution locale de bout en bout en proposant un modèle UML complet et une implémentation en java, couplée à une base de données SQL Express. Vous devez utilisez Eclipse et la plate-forme de partage de code github.
+    Gestion des Adhérents : Le système permettra l'enregistrement des membres, en capturant des informations essentielles telles que les coordonnées, les périodes d'adhésion et les chèques de caution associés.
+    Gestion des Jeux : Les utilisateurs pourront saisir de nouveaux jeux, suivre leurs conditions et gérer les exemplaires physiques qui peuvent avoir des variations dans leur contenu ou état.
+    Gestion des Emprunts : L'application facilitera le processus d'emprunt de jeux, en surveillant les durées d'emprunt et en gérant les conditions de retour.
+    Suivi des Alertes : Le système émettra des alertes pour les retours en retard et enregistrera les incidents de dégradations ou de pertes.
 
-Comme pour n’importe quel projet, vous aurez un certain nombre de livrables à produire : Un dossier de spécifications, qui contient une description fonctionnelle de votre application (on pourra y retrouver en particulier les trois types de diagrammes UML vus au Greta). Ce dossier est rédigé pour une équipe de développement. Un manuel d’utilisateur qui est rédigé pour l’association, en distinguant les différents rôles prévus dans vos diagrammes de cas d’utilisation. Un manuel d’installation qui est rédigé pour l’association.
+Fonctionnalités Clés :
 
-Cette application doit être pensée pour être enrichie facilement, pour intégrer d'autres fonctionnalités que vous pourrez proposer en vue d'une implémentation future, comme par exemple la gestion des dégradations, de favoris, la connexion à des services en lignes de référencement de jeux etc.
+    Enregistrement de nouveaux membres et de nouveaux jeux.
+    Démarrage et gestion des emprunts de jeux avec une fonction d'historique intégrée.
+    Maintien des dossiers d'adhésion, y compris les associations familiales ou amicales.
+    Capacité d'enrichissement futur, telle que l'intégration de services en ligne de référencement de jeux et la gestion des conditions de jeux.
 
-La ludothèque propose des adhésions d'un an, de date à date, actuellement à 15€. Cette adhésion est portée par une personne principale (l'adhérent) mais peut profiter à différentes personnes (son foyer, des amis...). Pour information, sachez qu'elle permet d'emprunter 2 jeux sur une période de 15 jours. Un retard de 15 jours est acceptable, au delà certaines alertes peuvent être levées. Les jeux sont vérifiés à chaque retour, toute dégradation est actuellement notée dans un cahier. Un chèque de caution de 60€ est associé à chaque adhésion. Ces paramètres peuvent être amenés à évoluer avec le temps.
+Livrables :
 
-Les informations concernant les adhérents portent sur le porteur principal de l'adhésion, ses coordonnées et les autres personnes qui peuvent utiliser la carte liée à cette adhésion, les différentes périodes d'adhésion, le dépôt d'un chèque de caution valide, un historique des différentes alertes liées à ce compte (retard, perte, dégradation...). Vous trouverez joint un livre des adhérents anonymisé (fichier excel).
+    Modèle UML : Un diagramme complet illustrant l'architecture du système.
+    Dossier de Spécifications : Une description fonctionnelle de l'application destinée à l'équipe de développement.
+    Manuel Utilisateur : Un guide pour l'association, détaillant les différents rôles et fonctionnalités pour les utilisateurs.
+    Guide d'Installation : Instructions pour la mise en place du système.
 
-Les informations concernant les jeux sont de deux niveaux : il faut considérer les différents jeux disponibles (titre, auteur, éditeur, règle du jeu, contenu initial) et les boites de jeux physiques présentes dans la ludothèque, qui ont peut être subies des modifications dans leur contenu, des dégradations etc. Le site internet trictrac montre l'étendue des informations qui peuvent être connues autour d'un jeu. Vous trouverez joint quelques documents liés aux informations des jeux (la liste des jeux, une fiche telle qu'elle existe actuellement)
-
-Le programme doit permettre a minima de saisir un nouvel adhérent ou un nouveau jeu, de démarrer un emprunt, de gérer les emprunts et de disposer d'un historique.
+Ce projet vise à créer une solution évolutive qui pourra s'adapter aux besoins de l'association, garantissant une interface conviviale et des capacités de gestion robustes pour la communauté en pleine croissance.
